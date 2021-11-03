@@ -36,6 +36,8 @@ opt.wildignore = opt.wildignore + { '*/node_modules/*', '*/.git/*', '*/vendor/*'
 opt.hlsearch = false
 
 -- ui
+vim.g.neovide_cursor_vfx_mode = 'railgun'
+opt.guifont = 'Hack:h6'
 opt.number = true
 opt.rnu = true
 opt.cursorline = true
